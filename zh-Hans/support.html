@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StoichPath — 支持</title><style>:root{color-scheme:light dark;--paper:#f5eedf;--card:#fdf9f1;--ink:#1e2230;--ink2:#5c6170;--cobalt:#2447c9;--brass:#b08a2e;--rule:#dacfbb}
+@media(prefers-color-scheme:dark){:root{--paper:#14171e;--card:#1e222b;--ink:#eee8da;--ink2:#a4a9b6;--cobalt:#7a95ff;--brass:#d6b259;--rule:#343a47}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:44px 22px 72px}.brand{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600}
+h1{font-size:40px;line-height:1.1;font-weight:700;margin:14px 0 8px}h2{font-size:24px;line-height:1.2;font-weight:600;margin:34px 0 8px}
+p,li{margin:8px 0}.lead{font-size:20px;color:var(--ink2)}nav{display:flex;gap:18px;margin:18px 0 30px;flex-wrap:wrap}
+a{color:var(--cobalt);text-underline-offset:3px}.card{background:var(--card);border:1px solid var(--rule);border-radius:18px;padding:18px 22px;margin:14px 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px}
+.rail{height:4px;background:var(--brass);border-radius:2px;margin:26px 0;position:relative}.rail::after{content:"";position:absolute;right:0;top:-6px;width:16px;height:16px;border-radius:50%;background:var(--cobalt)}
+footer{margin-top:40px;border-top:1px solid var(--rule);padding-top:16px;color:var(--ink2);font-size:14px}
+.langs{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:14px;list-style:none;padding:0}@media(max-width:600px){main{padding:30px 18px 56px}h1{font-size:32px}}</style>
+<link rel="canonical" href="https://hayriodabas.github.io/stoichpath-help/zh-Hans/support.html"></head>
+<body><main><div class="brand">StoichPath</div>
+<nav><a href="privacy.html">隐私</a><a href="support.html">支持</a><a href="../index.html">语言</a></nav>
+<h1>支持</h1><p class="lead">实验台如何工作，以及化学式或方程式无法读取时该怎么办。</p><div class="rail"></div><h2>写反应式</h2><p>输入反应物和生成物，中间用箭头隔开：<code>Fe2O3 + Al -> Al2O3 + Fe</code>。系数可以省略；实验台会找出最小整数。(g)、(aq) 等状态会保留。离子方程式可写电荷，如 <code>Fe^3+</code> 或 <code>Fe³⁺</code>。</p><h2>写化学式</h2><p>元素符号以大写字母开头：<code>CO</code> 是一氧化碳，<code>Co</code> 是钴。括号可以嵌套：<code>Ca(OH)2</code>、<code>[Fe(CN)6]3-</code>。水合物用点：<code>CuSO4·5H2O</code> 或 <code>CuSO4.5H2O</code>。末尾的符号表示电荷为 1：<code>NH4+</code>、<code>OH-</code>；更大的电荷用脱字符 <code>SO4^2-</code> 或上标。</p><h2>用量</h2><p>每种反应物可以用克、千克、毫克、摩尔、毫摩尔、粒子数、标准状况下气体的升或毫升，或带浓度的溶液毫升数给出。把反应物切换为“过量”即可不参与限量判断。</p><h2>约定</h2><p>摩尔质量采用简化标准原子量，按学校表格的方式取整。气体摩尔体积默认是 1 atm 下 22.4 L/mol，可在设置中改为 1 bar 下 22.7 L/mol。有效数字也是一项设置。</p><h2>练习</h2><p>每组是一项技能的十道题，取自二十多个反应，每次都是新数字。误差约在百分之一以内的答案算对。每次作答后都会显示通向实验台结果的路径。</p><h2>备份</h2><p>设置 › 备份笔记 会写出一个 JSON 文件，可放在任何地方；恢复会把它读回。文件只包含你的页面和练习记录。</p><div class="card"><p><strong>实验台说方程式无法配平。</strong></p><p>先检查每个化学式：一个错误的下标会让反应不可能发生。如果它其实是两个反应写成了一个，请分开配平。</p></div><div class="card"><p><strong>我的答案是对的，却被判错。</strong></p><p>对照题目要求的单位和有效数字位数。使用键盘上显示的小数分隔符。</p></div><div class="card"><p><strong>在新设备上怎么找回 Pro？</strong></p><p>用同一个 Apple 账户登录后，打开 Pro 页面或设置，点按“恢复购买”。</p></div>
+<h2>联系</h2><p><a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p>
+<footer><p>最后更新：2026 年 10 月 20 日</p><p>Hayri Odabaş</p></footer></main></body></html>

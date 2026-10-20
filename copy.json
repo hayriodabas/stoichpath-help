@@ -1,0 +1,305 @@
+{
+ "languages": {"en-US": "English", "de": "Deutsch", "fr": "Français", "es": "Español", "it": "Italiano", "pt-BR": "Português (Brasil)", "nl": "Nederlands", "ja": "日本語", "ko": "한국어", "zh-Hans": "简体中文", "ru": "Русский", "tr": "Türkçe"},
+ "pages": {
+  "en-US": {
+   "languages": "Languages", "contact": "Contact", "updated": "Last updated 20 October 2026",
+   "privacy": {"title": "Privacy", "lead": "StoichPath collects nothing. Everything you type and keep stays on your device.",
+    "sections": [
+     ["What the app stores", "Your notebook pages, practice history and settings are kept in the app's own folder on your device. They leave it only when you share a page yourself or export a backup file."],
+     ["What the app sends", "Nothing. StoichPath never opens a network connection. There is no account, no analytics, no advertising framework and no crash reporting."],
+     ["Purchases", "StoichPath Pro is a one-time purchase handled by the App Store. Apple processes the payment; the app only learns whether Pro is unlocked. Apple's privacy policy applies to that transaction."],
+     ["Deleting your data", "Settings › Erase the notebook removes every page and all practice history. Deleting the app removes everything."],
+     ["Children", "The app has no accounts, messaging, links to third-party sites or tracking of any kind."]
+    ]},
+   "support": {"title": "Support", "lead": "How the bench works, and what to do when a formula or an equation will not read.",
+    "sections": [
+     ["Writing a reaction", "Type reactants and products with an arrow between them: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. Coefficients are optional; the bench finds the smallest whole numbers. States such as (g) or (aq) are kept. Ionic equations work with charges written as <code>Fe^3+</code> or <code>Fe³⁺</code>."],
+     ["Writing a formula", "Element symbols start with a capital letter: <code>CO</code> is carbon monoxide, <code>Co</code> is cobalt. Brackets nest: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Hydrates use a dot: <code>CuSO4·5H2O</code> or <code>CuSO4.5H2O</code>. A trailing sign is a charge of one: <code>NH4+</code>, <code>OH-</code>; larger charges take a caret, <code>SO4^2-</code>, or superscripts."],
+     ["Amounts", "Each reactant can be given in grams, kilograms, milligrams, moles, millimoles, particles, litres or millilitres of gas at standard conditions, or as millilitres of a solution with its concentration. Switch a reactant to \"in excess\" to leave it out of the limiting check."],
+     ["Conventions", "Molar masses are the abridged standard atomic weights rounded as school tables print them. The molar volume of a gas is 22.4 L/mol at 1 atm by default; Settings switches it to 22.7 L/mol at 1 bar. Significant figures are a setting too."],
+     ["Practice", "Each set is ten questions of one skill, drawn from two dozen reactions with new numbers every time. An answer within about one percent counts as right. After every answer the path to the bench's number is shown."],
+     ["Backups", "Settings › Back up the notebook writes one JSON file you can keep anywhere; Restore reads it back. The file holds your pages and practice history only."]
+    ],
+    "faq": [
+     ["The bench says the equation cannot be balanced.", "Check every formula first: a wrong subscript makes a reaction impossible. If the equation is really two reactions written as one, balance them separately."],
+     ["My answer was right but marked wrong.", "Compare the unit asked for and the number of significant figures. Enter the decimal separator your keyboard shows."],
+     ["How do I get Pro back on a new device?", "Open the Pro page or Settings and tap Restore purchases while signed in with the same Apple Account."]
+    ]}
+  },
+  "de": {
+   "languages": "Sprachen", "contact": "Kontakt", "updated": "Zuletzt aktualisiert am 20. Oktober 2026",
+   "privacy": {"title": "Datenschutz", "lead": "StoichPath sammelt nichts. Alles, was du eintippst und behältst, bleibt auf deinem Gerät.",
+    "sections": [
+     ["Was die App speichert", "Heftseiten, Übungsverlauf und Einstellungen liegen im eigenen Ordner der App auf deinem Gerät. Sie verlassen es nur, wenn du selbst eine Seite teilst oder ein Backup exportierst."],
+     ["Was die App sendet", "Nichts. StoichPath öffnet nie eine Netzwerkverbindung. Es gibt kein Konto, keine Analyse, kein Werbe-Framework und keine Absturzberichte."],
+     ["Käufe", "StoichPath Pro ist ein einmaliger Kauf über den App Store. Apple wickelt die Zahlung ab; die App erfährt nur, ob Pro freigeschaltet ist. Für diesen Vorgang gilt die Datenschutzerklärung von Apple."],
+     ["Daten löschen", "Einstellungen › Heft löschen entfernt jede Seite und den gesamten Übungsverlauf. Das Löschen der App entfernt alles."],
+     ["Kinder", "Die App hat keine Konten, keine Nachrichten, keine Links zu Drittseiten und keinerlei Tracking."]
+    ]},
+   "support": {"title": "Support", "lead": "Wie der Labortisch arbeitet, und was zu tun ist, wenn eine Formel oder Gleichung nicht gelesen wird.",
+    "sections": [
+     ["Eine Reaktion schreiben", "Tippe Edukte und Produkte mit einem Pfeil dazwischen: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. Koeffizienten sind freiwillig; der Tisch findet die kleinsten ganzen Zahlen. Zustände wie (g) oder (aq) bleiben erhalten. Ionengleichungen funktionieren mit Ladungen als <code>Fe^3+</code> oder <code>Fe³⁺</code>."],
+     ["Eine Formel schreiben", "Elementsymbole beginnen mit einem Großbuchstaben: <code>CO</code> ist Kohlenmonoxid, <code>Co</code> ist Cobalt. Klammern lassen sich schachteln: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Hydrate mit Punkt: <code>CuSO4·5H2O</code> oder <code>CuSO4.5H2O</code>. Ein Vorzeichen am Ende ist eine Ladung von eins: <code>NH4+</code>, <code>OH-</code>; größere Ladungen mit Zirkumflex, <code>SO4^2-</code>, oder hochgestellt."],
+     ["Mengen", "Jedes Edukt kann in Gramm, Kilogramm, Milligramm, Mol, Millimol, Teilchen, Litern oder Millilitern Gas bei Standardbedingungen oder als Milliliter einer Lösung mit Konzentration angegeben werden. Schalte ein Edukt auf „im Überschuss“, um es aus der Limitierungsprüfung herauszuhalten."],
+     ["Konventionen", "Molare Massen sind die gekürzten Standard-Atomgewichte, gerundet wie in Schultabellen. Das Molvolumen eines Gases beträgt standardmäßig 22,4 L/mol bei 1 atm; die Einstellungen schalten auf 22,7 L/mol bei 1 bar um. Auch die signifikanten Stellen sind eine Einstellung."],
+     ["Üben", "Jeder Satz besteht aus zehn Fragen einer Fertigkeit, gezogen aus zwei Dutzend Reaktionen mit jedes Mal neuen Zahlen. Eine Antwort innerhalb von etwa einem Prozent gilt als richtig. Nach jeder Antwort wird der Weg zur Zahl des Tisches gezeigt."],
+     ["Backups", "Einstellungen › Heft sichern schreibt eine JSON-Datei, die du beliebig ablegen kannst; Wiederherstellen liest sie zurück. Die Datei enthält nur deine Seiten und den Übungsverlauf."]
+    ],
+    "faq": [
+     ["Der Tisch sagt, die Gleichung lässt sich nicht ausgleichen.", "Prüfe zuerst jede Formel: ein falscher Index macht eine Reaktion unmöglich. Sind es eigentlich zwei Reaktionen in einer, gleiche sie getrennt aus."],
+     ["Meine Antwort war richtig, wurde aber als falsch gewertet.", "Vergleiche die verlangte Einheit und die Zahl der signifikanten Stellen. Verwende das Dezimaltrennzeichen, das deine Tastatur zeigt."],
+     ["Wie bekomme ich Pro auf einem neuen Gerät zurück?", "Öffne die Pro-Seite oder die Einstellungen und tippe auf Käufe wiederherstellen, angemeldet mit demselben Apple-Account."]
+    ]}
+  },
+  "fr": {
+   "languages": "Langues", "contact": "Contact", "updated": "Dernière mise à jour le 20 octobre 2026",
+   "privacy": {"title": "Confidentialité", "lead": "StoichPath ne collecte rien. Tout ce que tu tapes et gardes reste sur ton appareil.",
+    "sections": [
+     ["Ce que l’app enregistre", "Tes pages de cahier, l’historique des exercices et les réglages sont conservés dans le dossier de l’app sur ton appareil. Ils n’en sortent que si tu partages toi-même une page ou exportes une sauvegarde."],
+     ["Ce que l’app envoie", "Rien. StoichPath n’ouvre jamais de connexion réseau. Pas de compte, pas d’analyse, pas de framework publicitaire, pas de rapport de plantage."],
+     ["Achats", "StoichPath Pro est un achat unique géré par l’App Store. Apple traite le paiement ; l’app sait seulement si Pro est débloqué. La politique de confidentialité d’Apple s’applique à cette transaction."],
+     ["Supprimer tes données", "Réglages › Effacer le cahier supprime toutes les pages et tout l’historique. Supprimer l’app supprime tout."],
+     ["Enfants", "L’app n’a ni compte, ni messagerie, ni lien vers des sites tiers, ni suivi d’aucune sorte."]
+    ]},
+   "support": {"title": "Assistance", "lead": "Comment fonctionne la paillasse, et que faire quand une formule ou une équation ne se lit pas.",
+    "sections": [
+     ["Écrire une réaction", "Tape réactifs et produits avec une flèche entre eux : <code>Fe2O3 + Al -> Al2O3 + Fe</code>. Les coefficients sont facultatifs ; la paillasse trouve les plus petits entiers. Les états comme (g) ou (aq) sont conservés. Les équations ioniques acceptent les charges écrites <code>Fe^3+</code> ou <code>Fe³⁺</code>."],
+     ["Écrire une formule", "Les symboles commencent par une majuscule : <code>CO</code> est le monoxyde de carbone, <code>Co</code> le cobalt. Les parenthèses s’imbriquent : <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Les hydrates prennent un point : <code>CuSO4·5H2O</code> ou <code>CuSO4.5H2O</code>. Un signe final est une charge de un : <code>NH4+</code>, <code>OH-</code> ; les charges plus grandes prennent un accent circonflexe, <code>SO4^2-</code>, ou des exposants."],
+     ["Quantités", "Chaque réactif se donne en grammes, kilogrammes, milligrammes, moles, millimoles, particules, litres ou millilitres de gaz aux conditions standard, ou en millilitres de solution avec sa concentration. Passe un réactif « en excès » pour l’écarter du calcul du limitant."],
+     ["Conventions", "Les masses molaires sont les poids atomiques standard abrégés, arrondis comme dans les tables scolaires. Le volume molaire d’un gaz est 22,4 L/mol à 1 atm par défaut ; les Réglages passent à 22,7 L/mol à 1 bar. Les chiffres significatifs sont aussi un réglage."],
+     ["Exercices", "Chaque série compte dix questions d’une compétence, tirées de deux douzaines de réactions avec de nouveaux nombres à chaque fois. Une réponse à environ un pour cent près est comptée juste. Après chaque réponse, le chemin vers le nombre de la paillasse est montré."],
+     ["Sauvegardes", "Réglages › Sauvegarder le cahier écrit un fichier JSON à garder où tu veux ; Restaurer le relit. Le fichier ne contient que tes pages et l’historique des exercices."]
+    ],
+    "faq": [
+     ["La paillasse dit que l’équation ne peut pas être équilibrée.", "Vérifie d’abord chaque formule : un indice faux rend la réaction impossible. Si ce sont en réalité deux réactions en une, équilibre-les séparément."],
+     ["Ma réponse était juste mais comptée fausse.", "Compare l’unité demandée et le nombre de chiffres significatifs. Utilise le séparateur décimal affiché par ton clavier."],
+     ["Comment retrouver Pro sur un nouvel appareil ?", "Ouvre la page Pro ou les Réglages et touche Restaurer les achats, connecté au même compte Apple."]
+    ]}
+  },
+  "es": {
+   "languages": "Idiomas", "contact": "Contacto", "updated": "Última actualización: 20 de octubre de 2026",
+   "privacy": {"title": "Privacidad", "lead": "StoichPath no recopila nada. Todo lo que escribes y guardas se queda en tu dispositivo.",
+    "sections": [
+     ["Qué guarda la app", "Las páginas del cuaderno, el historial de práctica y los ajustes se guardan en la carpeta de la app en tu dispositivo. Solo salen de él si compartes una página o exportas una copia de seguridad."],
+     ["Qué envía la app", "Nada. StoichPath nunca abre una conexión de red. No hay cuenta, ni analítica, ni publicidad, ni informes de fallos."],
+     ["Compras", "StoichPath Pro es una compra única gestionada por el App Store. Apple procesa el pago; la app solo sabe si Pro está desbloqueado. A esa transacción se aplica la política de privacidad de Apple."],
+     ["Borrar tus datos", "Ajustes › Borrar el cuaderno elimina todas las páginas y el historial. Eliminar la app lo borra todo."],
+     ["Menores", "La app no tiene cuentas, mensajería, enlaces a sitios de terceros ni rastreo de ningún tipo."]
+    ]},
+   "support": {"title": "Soporte", "lead": "Cómo funciona la mesa y qué hacer cuando una fórmula o una ecuación no se lee.",
+    "sections": [
+     ["Escribir una reacción", "Escribe reactivos y productos con una flecha entre ellos: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. Los coeficientes son opcionales; la mesa halla los enteros más pequeños. Los estados como (g) o (aq) se conservan. Las ecuaciones iónicas admiten cargas escritas <code>Fe^3+</code> o <code>Fe³⁺</code>."],
+     ["Escribir una fórmula", "Los símbolos empiezan con mayúscula: <code>CO</code> es monóxido de carbono, <code>Co</code> es cobalto. Los paréntesis se anidan: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Los hidratos llevan punto: <code>CuSO4·5H2O</code> o <code>CuSO4.5H2O</code>. Un signo final es carga uno: <code>NH4+</code>, <code>OH-</code>; cargas mayores con acento circunflejo, <code>SO4^2-</code>, o superíndices."],
+     ["Cantidades", "Cada reactivo se da en gramos, kilogramos, miligramos, moles, milimoles, partículas, litros o mililitros de gas en condiciones estándar, o en mililitros de disolución con su concentración. Pasa un reactivo a «en exceso» para dejarlo fuera del cálculo del limitante."],
+     ["Convenciones", "Las masas molares son los pesos atómicos estándar abreviados, redondeados como en las tablas escolares. El volumen molar de un gas es 22,4 L/mol a 1 atm por defecto; Ajustes lo cambia a 22,7 L/mol a 1 bar. Las cifras significativas también son un ajuste."],
+     ["Práctica", "Cada serie son diez preguntas de una destreza, sacadas de dos docenas de reacciones con números nuevos cada vez. Una respuesta con un error de alrededor del uno por ciento cuenta como correcta. Tras cada respuesta se muestra el camino hasta el número de la mesa."],
+     ["Copias de seguridad", "Ajustes › Hacer copia del cuaderno escribe un archivo JSON que puedes guardar donde quieras; Restaurar lo vuelve a leer. El archivo solo contiene tus páginas y el historial de práctica."]
+    ],
+    "faq": [
+     ["La mesa dice que la ecuación no se puede ajustar.", "Revisa primero cada fórmula: un subíndice erróneo hace imposible la reacción. Si en realidad son dos reacciones escritas como una, ajústalas por separado."],
+     ["Mi respuesta era correcta pero se marcó como incorrecta.", "Compara la unidad pedida y el número de cifras significativas. Usa el separador decimal que muestra tu teclado."],
+     ["¿Cómo recupero Pro en un dispositivo nuevo?", "Abre la página Pro o Ajustes y toca Restaurar compras con la misma cuenta de Apple."]
+    ]}
+  },
+  "it": {
+   "languages": "Lingue", "contact": "Contatto", "updated": "Ultimo aggiornamento: 20 ottobre 2026",
+   "privacy": {"title": "Privacy", "lead": "StoichPath non raccoglie nulla. Tutto ciò che scrivi e tieni resta sul tuo dispositivo.",
+    "sections": [
+     ["Cosa salva l’app", "Le pagine del quaderno, la cronologia degli esercizi e le impostazioni restano nella cartella dell’app sul tuo dispositivo. Ne escono solo se condividi una pagina o esporti un backup."],
+     ["Cosa invia l’app", "Niente. StoichPath non apre mai una connessione di rete. Nessun account, nessuna analisi, nessun framework pubblicitario, nessun rapporto di arresto."],
+     ["Acquisti", "StoichPath Pro è un acquisto unico gestito dall’App Store. Apple elabora il pagamento; l’app sa solo se Pro è sbloccato. A quella transazione si applica l’informativa sulla privacy di Apple."],
+     ["Cancellare i dati", "Impostazioni › Cancella il quaderno rimuove ogni pagina e tutta la cronologia. Eliminare l’app rimuove tutto."],
+     ["Minori", "L’app non ha account, messaggi, collegamenti a siti terzi né tracciamento di alcun tipo."]
+    ]},
+   "support": {"title": "Supporto", "lead": "Come lavora il banco, e cosa fare quando una formula o un’equazione non si legge.",
+    "sections": [
+     ["Scrivere una reazione", "Scrivi reagenti e prodotti con una freccia in mezzo: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. I coefficienti sono facoltativi; il banco trova i più piccoli interi. Gli stati come (g) o (aq) restano. Le equazioni ioniche accettano cariche scritte <code>Fe^3+</code> o <code>Fe³⁺</code>."],
+     ["Scrivere una formula", "I simboli iniziano con una maiuscola: <code>CO</code> è il monossido di carbonio, <code>Co</code> il cobalto. Le parentesi si annidano: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Gli idrati usano un punto: <code>CuSO4·5H2O</code> o <code>CuSO4.5H2O</code>. Un segno finale è una carica pari a uno: <code>NH4+</code>, <code>OH-</code>; cariche maggiori con l’accento circonflesso, <code>SO4^2-</code>, o in apice."],
+     ["Quantità", "Ogni reagente si può dare in grammi, chilogrammi, milligrammi, moli, millimoli, particelle, litri o millilitri di gas in condizioni standard, oppure in millilitri di soluzione con la concentrazione. Metti un reagente «in eccesso» per escluderlo dal calcolo del limitante."],
+     ["Convenzioni", "Le masse molari sono i pesi atomici standard abbreviati, arrotondati come nelle tavole scolastiche. Il volume molare di un gas è 22,4 L/mol a 1 atm per impostazione; le Impostazioni passano a 22,7 L/mol a 1 bar. Anche le cifre significative sono un’impostazione."],
+     ["Esercizi", "Ogni serie è di dieci domande su un’abilità, tratte da due dozzine di reazioni con numeri nuovi ogni volta. Una risposta entro circa l’uno per cento conta come giusta. Dopo ogni risposta compare il percorso verso il numero del banco."],
+     ["Backup", "Impostazioni › Fai il backup del quaderno scrive un file JSON da tenere dove vuoi; Ripristina lo rilegge. Il file contiene solo le tue pagine e la cronologia degli esercizi."]
+    ],
+    "faq": [
+     ["Il banco dice che l’equazione non si può bilanciare.", "Controlla prima ogni formula: un pedice sbagliato rende la reazione impossibile. Se sono davvero due reazioni scritte come una, bilanciale separatamente."],
+     ["La mia risposta era giusta ma è stata segnata sbagliata.", "Confronta l’unità richiesta e il numero di cifre significative. Usa il separatore decimale che mostra la tua tastiera."],
+     ["Come recupero Pro su un nuovo dispositivo?", "Apri la pagina Pro o le Impostazioni e tocca Ripristina acquisti con lo stesso account Apple."]
+    ]}
+  },
+  "pt-BR": {
+   "languages": "Idiomas", "contact": "Contato", "updated": "Última atualização: 20 de outubro de 2026",
+   "privacy": {"title": "Privacidade", "lead": "O StoichPath não coleta nada. Tudo o que você digita e guarda fica no seu aparelho.",
+    "sections": [
+     ["O que o app guarda", "As páginas do caderno, o histórico de prática e os ajustes ficam na pasta do app no seu aparelho. Só saem dele se você mesmo compartilhar uma página ou exportar um backup."],
+     ["O que o app envia", "Nada. O StoichPath nunca abre uma conexão de rede. Não há conta, análise, publicidade nem relatórios de falhas."],
+     ["Compras", "O StoichPath Pro é uma compra única feita pela App Store. A Apple processa o pagamento; o app só sabe se o Pro está liberado. A política de privacidade da Apple vale para essa transação."],
+     ["Apagar seus dados", "Ajustes › Apagar o caderno remove todas as páginas e o histórico. Excluir o app remove tudo."],
+     ["Crianças", "O app não tem contas, mensagens, links para sites de terceiros nem rastreamento de nenhum tipo."]
+    ]},
+   "support": {"title": "Suporte", "lead": "Como a bancada funciona e o que fazer quando uma fórmula ou equação não é lida.",
+    "sections": [
+     ["Escrever uma reação", "Digite reagentes e produtos com uma seta entre eles: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. Coeficientes são opcionais; a bancada acha os menores inteiros. Estados como (g) ou (aq) são mantidos. Equações iônicas aceitam cargas escritas <code>Fe^3+</code> ou <code>Fe³⁺</code>."],
+     ["Escrever uma fórmula", "Símbolos começam com maiúscula: <code>CO</code> é monóxido de carbono, <code>Co</code> é cobalto. Parênteses se aninham: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Hidratos usam ponto: <code>CuSO4·5H2O</code> ou <code>CuSO4.5H2O</code>. Um sinal no fim é carga um: <code>NH4+</code>, <code>OH-</code>; cargas maiores usam acento circunflexo, <code>SO4^2-</code>, ou sobrescritos."],
+     ["Quantidades", "Cada reagente pode ser dado em gramas, quilogramas, miligramas, mols, milimols, partículas, litros ou mililitros de gás nas condições padrão, ou em mililitros de solução com a concentração. Marque um reagente como \"em excesso\" para deixá-lo fora do cálculo do limitante."],
+     ["Convenções", "As massas molares são os pesos atômicos padrão abreviados, arredondados como nas tabelas escolares. O volume molar de um gás é 22,4 L/mol a 1 atm por padrão; os Ajustes mudam para 22,7 L/mol a 1 bar. Os algarismos significativos também são um ajuste."],
+     ["Prática", "Cada série tem dez perguntas de uma habilidade, tiradas de duas dúzias de reações com números novos a cada vez. Uma resposta com cerca de um por cento de erro conta como certa. Depois de cada resposta o caminho até o número da bancada é mostrado."],
+     ["Backups", "Ajustes › Fazer backup do caderno grava um arquivo JSON que você pode guardar onde quiser; Restaurar lê de volta. O arquivo contém só suas páginas e o histórico de prática."]
+    ],
+    "faq": [
+     ["A bancada diz que a equação não pode ser balanceada.", "Confira cada fórmula primeiro: um índice errado torna a reação impossível. Se forem na verdade duas reações escritas como uma, balanceie separadamente."],
+     ["Minha resposta estava certa, mas foi marcada como errada.", "Compare a unidade pedida e o número de algarismos significativos. Use o separador decimal que o seu teclado mostra."],
+     ["Como recupero o Pro em um aparelho novo?", "Abra a página do Pro ou os Ajustes e toque em Restaurar compras com a mesma Conta Apple."]
+    ]}
+  },
+  "nl": {
+   "languages": "Talen", "contact": "Contact", "updated": "Laatst bijgewerkt op 20 oktober 2026",
+   "privacy": {"title": "Privacy", "lead": "StoichPath verzamelt niets. Alles wat je typt en bewaart blijft op je apparaat.",
+    "sections": [
+     ["Wat de app bewaart", "Je schriftpagina’s, oefengeschiedenis en instellingen staan in de eigen map van de app op je apparaat. Ze verlaten het alleen als je zelf een pagina deelt of een back-up exporteert."],
+     ["Wat de app verstuurt", "Niets. StoichPath opent nooit een netwerkverbinding. Er is geen account, geen analyse, geen advertentieframework en geen crashrapportage."],
+     ["Aankopen", "StoichPath Pro is een eenmalige aankoop via de App Store. Apple verwerkt de betaling; de app weet alleen of Pro is ontgrendeld. Op die transactie is het privacybeleid van Apple van toepassing."],
+     ["Je gegevens wissen", "Instellingen › Schrift wissen verwijdert elke pagina en de hele oefengeschiedenis. De app verwijderen verwijdert alles."],
+     ["Kinderen", "De app heeft geen accounts, berichten, links naar sites van derden of tracking van welke aard ook."]
+    ]},
+   "support": {"title": "Ondersteuning", "lead": "Hoe de werkbank werkt, en wat te doen als een formule of vergelijking niet leesbaar is.",
+    "sections": [
+     ["Een reactie schrijven", "Typ reagentia en producten met een pijl ertussen: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. Coëfficiënten zijn optioneel; de werkbank vindt de kleinste gehele getallen. Toestanden als (g) of (aq) blijven staan. Ionenvergelijkingen werken met ladingen als <code>Fe^3+</code> of <code>Fe³⁺</code>."],
+     ["Een formule schrijven", "Elementsymbolen beginnen met een hoofdletter: <code>CO</code> is koolmonoxide, <code>Co</code> is kobalt. Haakjes nesten: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Hydraten met een punt: <code>CuSO4·5H2O</code> of <code>CuSO4.5H2O</code>. Een teken aan het eind is een lading van één: <code>NH4+</code>, <code>OH-</code>; grotere ladingen met een dakje, <code>SO4^2-</code>, of superscript."],
+     ["Hoeveelheden", "Elk reagens kan in gram, kilogram, milligram, mol, millimol, deeltjes, liter of milliliter gas bij standaardomstandigheden, of als milliliter oplossing met concentratie. Zet een reagens op „in overmaat” om het buiten de beperkingscheck te houden."],
+     ["Afspraken", "Molaire massa’s zijn de verkorte standaardatoomgewichten, afgerond zoals schooltabellen ze drukken. Het molaire volume van een gas is standaard 22,4 L/mol bij 1 atm; Instellingen schakelt naar 22,7 L/mol bij 1 bar. Significante cijfers zijn ook een instelling."],
+     ["Oefenen", "Elke set is tien vragen over één vaardigheid, uit twee dozijn reacties met telkens nieuwe getallen. Een antwoord binnen ongeveer één procent telt als goed. Na elk antwoord wordt het pad naar het getal van de werkbank getoond."],
+     ["Back-ups", "Instellingen › Schrift back-uppen schrijft één JSON-bestand dat je overal kunt bewaren; Terugzetten leest het terug. Het bestand bevat alleen je pagina’s en oefengeschiedenis."]
+    ],
+    "faq": [
+     ["De werkbank zegt dat de vergelijking niet kloppend te maken is.", "Controleer eerst elke formule: een verkeerde index maakt een reactie onmogelijk. Zijn het eigenlijk twee reacties in één, maak ze dan apart kloppend."],
+     ["Mijn antwoord was goed maar werd fout gerekend.", "Vergelijk de gevraagde eenheid en het aantal significante cijfers. Gebruik het decimaalteken dat je toetsenbord toont."],
+     ["Hoe krijg ik Pro terug op een nieuw apparaat?", "Open de Pro-pagina of Instellingen en tik op Aankopen herstellen, ingelogd met hetzelfde Apple-account."]
+    ]}
+  },
+  "ja": {
+   "languages": "言語", "contact": "連絡先", "updated": "最終更新：2026年10月20日",
+   "privacy": {"title": "プライバシー", "lead": "StoichPath は何も収集しません。入力し保存したものはすべてあなたの端末に残ります。",
+    "sections": [
+     ["アプリが保存するもの", "ノートのページ、練習の記録、設定は端末内のアプリ専用フォルダに保存されます。自分でページを共有するかバックアップを書き出さない限り、端末の外に出ることはありません。"],
+     ["アプリが送信するもの", "何も送信しません。StoichPath はネットワーク接続を開きません。アカウント、解析、広告フレームワーク、クラッシュ報告はありません。"],
+     ["購入", "StoichPath Pro は App Store が扱う1回限りの購入です。支払いは Apple が処理し、アプリは Pro が解除されたかどうかだけを知ります。その取引には Apple のプライバシーポリシーが適用されます。"],
+     ["データの削除", "設定 › ノートを消去 で、すべてのページと練習の記録が消えます。アプリを削除するとすべてが消えます。"],
+     ["子ども", "アプリにはアカウント、メッセージ、外部サイトへのリンク、いかなる種類のトラッキングもありません。"]
+    ]},
+   "support": {"title": "サポート", "lead": "実験台の使い方と、化学式や反応式が読めないときの対処。",
+    "sections": [
+     ["反応式の書き方", "反応物と生成物の間に矢印を入れて入力します：<code>Fe2O3 + Al -> Al2O3 + Fe</code>。係数は省略できます。実験台が最小の整数を見つけます。(g) や (aq) などの状態は保持されます。イオン反応式は <code>Fe^3+</code> または <code>Fe³⁺</code> のように電荷を書けます。"],
+     ["化学式の書き方", "元素記号は大文字で始まります：<code>CO</code> は一酸化炭素、<code>Co</code> はコバルトです。括弧は入れ子にできます：<code>Ca(OH)2</code>、<code>[Fe(CN)6]3-</code>。水和物はドットで：<code>CuSO4·5H2O</code> または <code>CuSO4.5H2O</code>。末尾の符号は電荷 1 を表します：<code>NH4+</code>、<code>OH-</code>。大きな電荷はキャレット <code>SO4^2-</code> または上付き文字で書きます。"],
+     ["量", "各反応物はグラム、キログラム、ミリグラム、モル、ミリモル、粒子数、標準状態の気体のリットルまたはミリリットル、あるいは濃度つき溶液のミリリットルで与えられます。「過剰」に切り替えると限定反応物の判定から外れます。"],
+     ["約束事", "モル質量は簡約標準原子量を学校の表のように丸めた値です。気体のモル体積は既定で 1 atm の 22.4 L/mol、設定で 1 bar の 22.7 L/mol に切り替えられます。有効数字も設定項目です。"],
+     ["練習", "各セットは1つの力に関する10問で、二十余りの反応から毎回新しい数値で出題されます。約1%以内の答えは正解とみなされます。答えるたびに実験台の数値への道すじが表示されます。"],
+     ["バックアップ", "設定 › ノートをバックアップ で JSON ファイルが1つ書き出され、どこにでも保存できます。復元で読み戻します。ファイルにはページと練習の記録だけが入っています。"]
+    ],
+    "faq": [
+     ["実験台が反応式を釣り合わせられないと言います。", "まず各化学式を確認してください。添字が間違っていると反応は成立しません。実質2つの反応を1つに書いている場合は、別々に係数を合わせてください。"],
+     ["答えは合っていたのに不正解になりました。", "求められた単位と有効数字の桁数を確かめてください。キーボードに表示される小数点記号を使ってください。"],
+     ["新しい端末で Pro を戻すには？", "同じ Apple アカウントでサインインし、Pro ページか設定で「購入を復元」をタップします。"]
+    ]}
+  },
+  "ko": {
+   "languages": "언어", "contact": "연락처", "updated": "마지막 업데이트: 2026년 10월 20일",
+   "privacy": {"title": "개인정보", "lead": "StoichPath는 아무것도 수집하지 않습니다. 입력하고 남긴 모든 것은 기기 안에 머뭅니다.",
+    "sections": [
+     ["앱이 저장하는 것", "노트 쪽, 연습 기록, 설정은 기기 안 앱 전용 폴더에 보관됩니다. 직접 쪽을 공유하거나 백업 파일을 내보내지 않는 한 기기를 떠나지 않습니다."],
+     ["앱이 보내는 것", "없습니다. StoichPath는 네트워크 연결을 열지 않습니다. 계정, 분석, 광고 프레임워크, 충돌 보고가 없습니다."],
+     ["구매", "StoichPath Pro는 App Store가 처리하는 한 번의 구매입니다. 결제는 Apple이 처리하며 앱은 Pro가 열렸는지만 압니다. 그 거래에는 Apple의 개인정보 처리방침이 적용됩니다."],
+     ["데이터 삭제", "설정 › 노트 지우기 는 모든 쪽과 연습 기록을 지웁니다. 앱을 삭제하면 모든 것이 지워집니다."],
+     ["어린이", "앱에는 계정, 메시지, 외부 사이트 링크, 어떤 종류의 추적도 없습니다."]
+    ]},
+   "support": {"title": "지원", "lead": "실험대가 어떻게 작동하는지, 화학식이나 반응식이 읽히지 않을 때 무엇을 해야 하는지.",
+    "sections": [
+     ["반응식 쓰기", "반응물과 생성물 사이에 화살표를 넣어 입력합니다: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. 계수는 생략해도 됩니다. 실험대가 가장 작은 정수를 찾습니다. (g), (aq) 같은 상태는 유지됩니다. 이온 반응식은 <code>Fe^3+</code> 또는 <code>Fe³⁺</code>처럼 전하를 쓸 수 있습니다."],
+     ["화학식 쓰기", "원소 기호는 대문자로 시작합니다: <code>CO</code>는 일산화탄소, <code>Co</code>는 코발트입니다. 괄호는 겹칠 수 있습니다: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. 수화물은 점을 씁니다: <code>CuSO4·5H2O</code> 또는 <code>CuSO4.5H2O</code>. 끝의 부호는 전하 1입니다: <code>NH4+</code>, <code>OH-</code>. 더 큰 전하는 캐럿 <code>SO4^2-</code> 또는 위 첨자로 씁니다."],
+     ["양", "각 반응물은 그램, 킬로그램, 밀리그램, 몰, 밀리몰, 입자 수, 표준 상태 기체의 리터나 밀리리터, 또는 농도가 있는 용액의 밀리리터로 줄 수 있습니다. 반응물을 \"과량\"으로 바꾸면 한계 반응물 판정에서 빠집니다."],
+     ["약속", "몰 질량은 축약 표준 원자량을 학교 표처럼 반올림한 값입니다. 기체의 몰 부피는 기본으로 1 atm에서 22.4 L/mol이며 설정에서 1 bar의 22.7 L/mol로 바꿀 수 있습니다. 유효숫자도 설정 항목입니다."],
+     ["연습", "각 세트는 한 기술에 대한 열 문제이며, 스물네 가지 반응에서 매번 새 숫자로 뽑힙니다. 약 1% 이내의 답은 정답으로 칩니다. 답할 때마다 실험대의 숫자로 가는 풀이 경로가 나타납니다."],
+     ["백업", "설정 › 노트 백업 은 어디에나 둘 수 있는 JSON 파일 하나를 씁니다. 복원이 그것을 다시 읽습니다. 파일에는 쪽과 연습 기록만 들어 있습니다."]
+    ],
+    "faq": [
+     ["실험대가 반응식을 맞출 수 없다고 합니다.", "먼저 각 화학식을 확인하세요. 잘못된 아래 첨자는 반응을 불가능하게 만듭니다. 사실상 두 반응을 하나로 적은 것이라면 따로 맞추세요."],
+     ["답이 맞았는데 틀렸다고 나옵니다.", "요구된 단위와 유효숫자 자릿수를 비교하세요. 키보드에 보이는 소수점 기호를 쓰세요."],
+     ["새 기기에서 Pro를 어떻게 되찾나요?", "같은 Apple 계정으로 로그인한 상태에서 Pro 페이지나 설정에서 구매 복원을 누르세요."]
+    ]}
+  },
+  "zh-Hans": {
+   "languages": "语言", "contact": "联系", "updated": "最后更新：2026 年 10 月 20 日",
+   "privacy": {"title": "隐私", "lead": "StoichPath 不收集任何信息。你输入和保存的一切都留在你的设备上。",
+    "sections": [
+     ["App 保存什么", "笔记页面、练习记录和设置保存在设备上 App 自己的文件夹里。除非你自己分享页面或导出备份文件，它们不会离开设备。"],
+     ["App 发送什么", "什么都不发送。StoichPath 从不打开网络连接。没有账户、没有分析、没有广告框架、没有崩溃报告。"],
+     ["购买", "StoichPath Pro 是由 App Store 处理的一次性购买。Apple 处理付款；App 只知道 Pro 是否已解锁。该交易适用 Apple 的隐私政策。"],
+     ["删除你的数据", "设置 › 清空笔记 会删除所有页面和练习记录。删除 App 会删除一切。"],
+     ["儿童", "App 没有账户、消息、第三方网站链接，也没有任何形式的跟踪。"]
+    ]},
+   "support": {"title": "支持", "lead": "实验台如何工作，以及化学式或方程式无法读取时该怎么办。",
+    "sections": [
+     ["写反应式", "输入反应物和生成物，中间用箭头隔开：<code>Fe2O3 + Al -> Al2O3 + Fe</code>。系数可以省略；实验台会找出最小整数。(g)、(aq) 等状态会保留。离子方程式可写电荷，如 <code>Fe^3+</code> 或 <code>Fe³⁺</code>。"],
+     ["写化学式", "元素符号以大写字母开头：<code>CO</code> 是一氧化碳，<code>Co</code> 是钴。括号可以嵌套：<code>Ca(OH)2</code>、<code>[Fe(CN)6]3-</code>。水合物用点：<code>CuSO4·5H2O</code> 或 <code>CuSO4.5H2O</code>。末尾的符号表示电荷为 1：<code>NH4+</code>、<code>OH-</code>；更大的电荷用脱字符 <code>SO4^2-</code> 或上标。"],
+     ["用量", "每种反应物可以用克、千克、毫克、摩尔、毫摩尔、粒子数、标准状况下气体的升或毫升，或带浓度的溶液毫升数给出。把反应物切换为“过量”即可不参与限量判断。"],
+     ["约定", "摩尔质量采用简化标准原子量，按学校表格的方式取整。气体摩尔体积默认是 1 atm 下 22.4 L/mol，可在设置中改为 1 bar 下 22.7 L/mol。有效数字也是一项设置。"],
+     ["练习", "每组是一项技能的十道题，取自二十多个反应，每次都是新数字。误差约在百分之一以内的答案算对。每次作答后都会显示通向实验台结果的路径。"],
+     ["备份", "设置 › 备份笔记 会写出一个 JSON 文件，可放在任何地方；恢复会把它读回。文件只包含你的页面和练习记录。"]
+    ],
+    "faq": [
+     ["实验台说方程式无法配平。", "先检查每个化学式：一个错误的下标会让反应不可能发生。如果它其实是两个反应写成了一个，请分开配平。"],
+     ["我的答案是对的，却被判错。", "对照题目要求的单位和有效数字位数。使用键盘上显示的小数分隔符。"],
+     ["在新设备上怎么找回 Pro？", "用同一个 Apple 账户登录后，打开 Pro 页面或设置，点按“恢复购买”。"]
+    ]}
+  },
+  "ru": {
+   "languages": "Языки", "contact": "Контакт", "updated": "Обновлено 20 октября 2026 г.",
+   "privacy": {"title": "Конфиденциальность", "lead": "StoichPath ничего не собирает. Всё, что вы вводите и сохраняете, остаётся на вашем устройстве.",
+    "sections": [
+     ["Что хранит приложение", "Страницы тетради, история упражнений и настройки хранятся в собственной папке приложения на устройстве. Они покидают его только когда вы сами делитесь страницей или экспортируете резервную копию."],
+     ["Что отправляет приложение", "Ничего. StoichPath никогда не открывает сетевое соединение. Нет аккаунта, аналитики, рекламных библиотек и отчётов о сбоях."],
+     ["Покупки", "StoichPath Pro — разовая покупка через App Store. Платёж обрабатывает Apple; приложение узнаёт лишь, открыт ли Pro. К этой операции применяется политика конфиденциальности Apple."],
+     ["Удаление данных", "Настройки › Стереть тетрадь удаляет все страницы и историю упражнений. Удаление приложения удаляет всё."],
+     ["Дети", "В приложении нет аккаунтов, сообщений, ссылок на сторонние сайты и какого-либо отслеживания."]
+    ]},
+   "support": {"title": "Поддержка", "lead": "Как работает стол и что делать, если формула или уравнение не читаются.",
+    "sections": [
+     ["Запись реакции", "Введите реагенты и продукты со стрелкой между ними: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. Коэффициенты необязательны; стол найдёт наименьшие целые. Состояния вроде (g) или (aq) сохраняются. Ионные уравнения принимают заряды в виде <code>Fe^3+</code> или <code>Fe³⁺</code>."],
+     ["Запись формулы", "Символы элементов начинаются с заглавной буквы: <code>CO</code> — угарный газ, <code>Co</code> — кобальт. Скобки вкладываются: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Гидраты пишутся через точку: <code>CuSO4·5H2O</code> или <code>CuSO4.5H2O</code>. Знак в конце — заряд, равный единице: <code>NH4+</code>, <code>OH-</code>; большие заряды — через крышку, <code>SO4^2-</code>, или надстрочными символами."],
+     ["Количества", "Каждый реагент можно задать в граммах, килограммах, миллиграммах, молях, миллимолях, частицах, литрах или миллилитрах газа при нормальных условиях либо в миллилитрах раствора с концентрацией. Переключите реагент «в избыток», чтобы исключить его из проверки на недостаток."],
+     ["Соглашения", "Молярные массы — сокращённые стандартные атомные веса, округлённые как в школьных таблицах. Молярный объём газа по умолчанию 22,4 л/моль при 1 атм; в настройках можно выбрать 22,7 л/моль при 1 бар. Значащие цифры — тоже настройка."],
+     ["Практика", "Каждая серия — десять вопросов по одному навыку из двух десятков реакций, каждый раз с новыми числами. Ответ в пределах примерно одного процента считается верным. После каждого ответа показывается путь к числу стола."],
+     ["Резервные копии", "Настройки › Сохранить копию тетради записывает один файл JSON, который можно хранить где угодно; восстановление читает его обратно. В файле только ваши страницы и история упражнений."]
+    ],
+    "faq": [
+     ["Стол говорит, что уравнение нельзя уравнять.", "Сначала проверьте каждую формулу: неверный индекс делает реакцию невозможной. Если это на самом деле две реакции в одной, уравняйте их по отдельности."],
+     ["Мой ответ был верным, но засчитан как неверный.", "Сверьте требуемую единицу и число значащих цифр. Используйте десятичный разделитель, который показывает клавиатура."],
+     ["Как вернуть Pro на новом устройстве?", "Откройте страницу Pro или настройки и нажмите «Восстановить покупки», войдя с тем же Apple Account."]
+    ]}
+  },
+  "tr": {
+   "languages": "Diller", "contact": "İletişim", "updated": "Son güncelleme: 20 Ekim 2026",
+   "privacy": {"title": "Gizlilik", "lead": "StoichPath hiçbir şey toplamaz. Yazdığın ve sakladığın her şey cihazında kalır.",
+    "sections": [
+     ["Uygulamanın sakladıkları", "Defter sayfaların, alıştırma geçmişin ve ayarların cihazındaki uygulama klasöründe tutulur. Yalnızca sen bir sayfayı paylaşır ya da yedek dışa aktarırsan cihazdan çıkar."],
+     ["Uygulamanın gönderdikleri", "Hiçbir şey. StoichPath asla ağ bağlantısı açmaz. Hesap, analiz, reklam kitaplığı ve çökme raporu yoktur."],
+     ["Satın almalar", "StoichPath Pro, App Store'un yürüttüğü tek seferlik bir satın almadır. Ödemeyi Apple işler; uygulama yalnızca Pro'nun açık olup olmadığını öğrenir. Bu işlem için Apple'ın gizlilik politikası geçerlidir."],
+     ["Verilerini silmek", "Ayarlar › Defteri sil her sayfayı ve bütün alıştırma geçmişini kaldırır. Uygulamayı silmek her şeyi kaldırır."],
+     ["Çocuklar", "Uygulamada hesap, mesajlaşma, üçüncü taraf sitelere bağlantı ya da herhangi bir izleme yoktur."]
+    ]},
+   "support": {"title": "Destek", "lead": "Tezgâh nasıl çalışır, bir formül ya da denklem okunmadığında ne yapılır.",
+    "sections": [
+     ["Tepkime yazmak", "Tepkenleri ve ürünleri aralarına ok koyarak yaz: <code>Fe2O3 + Al -> Al2O3 + Fe</code>. Katsayılar isteğe bağlıdır; tezgâh en küçük tam sayıları bulur. (g) ya da (aq) gibi haller korunur. İyon denklemleri <code>Fe^3+</code> ya da <code>Fe³⁺</code> biçiminde yüklerle çalışır."],
+     ["Formül yazmak", "Element simgeleri büyük harfle başlar: <code>CO</code> karbon monoksit, <code>Co</code> kobalttır. Parantezler iç içe olabilir: <code>Ca(OH)2</code>, <code>[Fe(CN)6]3-</code>. Hidratlar nokta alır: <code>CuSO4·5H2O</code> ya da <code>CuSO4.5H2O</code>. Sondaki işaret bir birimlik yüktür: <code>NH4+</code>, <code>OH-</code>; büyük yükler şapka ile <code>SO4^2-</code> ya da üst simgeyle yazılır."],
+     ["Miktarlar", "Her tepken gram, kilogram, miligram, mol, milimol, tanecik, standart koşullarda litre ya da mililitre gaz, ya da derişimiyle mililitre çözelti olarak verilebilir. Bir tepkeni \"aşırı\"ya alırsan sınırlayıcı denetiminin dışında kalır."],
+     ["Kurallar", "Mol kütleleri, okul tablolarındaki gibi yuvarlanmış kısaltılmış standart atom ağırlıklarıdır. Gazın mol hacmi varsayılan olarak 1 atm'de 22,4 L/mol; Ayarlar 1 bar'da 22,7 L/mol'e geçirir. Anlamlı basamaklar da bir ayardır."],
+     ["Alıştırma", "Her set tek bir becerinin on sorusudur; iki düzine tepkimeden her seferinde yeni sayılarla çekilir. Yaklaşık yüzde bir içindeki yanıt doğru sayılır. Her yanıttan sonra tezgâhın sayısına giden yol gösterilir."],
+     ["Yedekler", "Ayarlar › Defteri yedekle istediğin yerde saklayabileceğin tek bir JSON dosyası yazar; Geri yükle onu okur. Dosyada yalnızca sayfaların ve alıştırma geçmişin vardır."]
+    ],
+    "faq": [
+     ["Tezgâh denklemin denkleştirilemeyeceğini söylüyor.", "Önce her formülü kontrol et: yanlış bir alt indis tepkimeyi olanaksız kılar. Aslında tek yazılmış iki tepkimeyse ayrı ayrı denkleştir."],
+     ["Yanıtım doğruydu ama yanlış sayıldı.", "İstenen birimi ve anlamlı basamak sayısını karşılaştır. Klavyende görünen ondalık ayırıcıyı kullan."],
+     ["Yeni cihazda Pro'yu nasıl geri alırım?", "Aynı Apple Hesabı ile oturum açıkken Pro sayfasını ya da Ayarlar'ı açıp Satın almaları geri yükle'ye dokun."]
+    ]}
+  }
+ }
+}

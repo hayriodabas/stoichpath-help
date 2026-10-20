@@ -1,15 +1,19 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>StoichPath — 개인정보 보호</title><style>
-:root{color-scheme:light;--ink:#1e232a;--muted:#626b73;--paper:#f6f4ee;--accent:#31589b}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-main{max-width:820px;margin:0 auto;padding:48px 24px 80px}.brand{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
-h1{font:500 46px/1.1 Georgia,serif;margin:16px 0 12px}h2{font-size:22px;margin:34px 0 6px}p{margin:8px 0;color:#303943}.lead{font-size:21px;line-height:1.5;color:#303943}
-nav{display:flex;gap:22px;margin:22px 0 34px}a{color:var(--accent);text-underline-offset:3px}footer{margin-top:44px;border-top:1px solid #d7d5cd;padding-top:18px;color:var(--muted);font-size:14px}
-@media(max-width:600px){main{padding:32px 20px 60px}h1{font-size:38px}.lead{font-size:19px}}
-</style><link rel="canonical" href="https://hayriodabas.github.io/stoichpath-help/ko/privacy.html"></head>
-<body><main><div class="brand">StoichPath · Portfolio Studio</div><nav><a href="privacy.html">개인정보 보호</a><a href="support.html">지원</a></nav><h1>개인정보 보호</h1><p class="lead">이 프로토타입은 화학 풀이, 메모, 오답 기록을 이 기기의 앱 로컬 저장소에 보관합니다. 앱은 이 학습 내용을 개발자 서버로 보내지 않습니다.</p>
-<h2>풀이 내용은 앱에 저장됩니다</h2><p>계산과 저장된 풀이를 기기에서 처리합니다. 계정, 광고, 분석 기능 또는 제3자 추적 SDK는 없습니다. iOS 기기 백업 설정에 따라 앱 데이터가 기기 백업에 포함될 수 있습니다.</p>
-<h2>내보내기는 사용자가 선택합니다</h2><p>PDF나 백업을 만들거나 공유하면 iOS의 표준 문서 또는 공유 화면이 표시됩니다. 이후 내보낸 사본은 받는 앱이나 저장 위치의 정책에 따라 처리됩니다. 앱은 사본을 개발자 서비스에 업로드하지 않습니다.</p>
-<h2>네트워크 상태</h2><p>앱은 연결 상태를 표시하기 위해 네트워크 경로 사용 가능 여부를 확인합니다. 이 확인으로 학습 내용을 전송하지 않습니다.</p>
-<h2>구매</h2><p>이 프로토타입 빌드에는 운영용 앱 내 구매 상품이 설정되어 있지 않습니다.</p><footer><p>최종 업데이트: 2026년 10월 17일</p><p>Publisher: Hayri Odabaş</p><p>Support: <a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p></footer></main></body></html>
+<title>StoichPath — 개인정보</title><style>:root{color-scheme:light dark;--paper:#f5eedf;--card:#fdf9f1;--ink:#1e2230;--ink2:#5c6170;--cobalt:#2447c9;--brass:#b08a2e;--rule:#dacfbb}
+@media(prefers-color-scheme:dark){:root{--paper:#14171e;--card:#1e222b;--ink:#eee8da;--ink2:#a4a9b6;--cobalt:#7a95ff;--brass:#d6b259;--rule:#343a47}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:44px 22px 72px}.brand{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600}
+h1{font-size:40px;line-height:1.1;font-weight:700;margin:14px 0 8px}h2{font-size:24px;line-height:1.2;font-weight:600;margin:34px 0 8px}
+p,li{margin:8px 0}.lead{font-size:20px;color:var(--ink2)}nav{display:flex;gap:18px;margin:18px 0 30px;flex-wrap:wrap}
+a{color:var(--cobalt);text-underline-offset:3px}.card{background:var(--card);border:1px solid var(--rule);border-radius:18px;padding:18px 22px;margin:14px 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px}
+.rail{height:4px;background:var(--brass);border-radius:2px;margin:26px 0;position:relative}.rail::after{content:"";position:absolute;right:0;top:-6px;width:16px;height:16px;border-radius:50%;background:var(--cobalt)}
+footer{margin-top:40px;border-top:1px solid var(--rule);padding-top:16px;color:var(--ink2);font-size:14px}
+.langs{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:14px;list-style:none;padding:0}@media(max-width:600px){main{padding:30px 18px 56px}h1{font-size:32px}}</style>
+<link rel="canonical" href="https://hayriodabas.github.io/stoichpath-help/ko/privacy.html"></head>
+<body><main><div class="brand">StoichPath</div>
+<nav><a href="privacy.html">개인정보</a><a href="support.html">지원</a><a href="../index.html">언어</a></nav>
+<h1>개인정보</h1><p class="lead">StoichPath는 아무것도 수집하지 않습니다. 입력하고 남긴 모든 것은 기기 안에 머뭅니다.</p><div class="rail"></div><h2>앱이 저장하는 것</h2><p>노트 쪽, 연습 기록, 설정은 기기 안 앱 전용 폴더에 보관됩니다. 직접 쪽을 공유하거나 백업 파일을 내보내지 않는 한 기기를 떠나지 않습니다.</p><h2>앱이 보내는 것</h2><p>없습니다. StoichPath는 네트워크 연결을 열지 않습니다. 계정, 분석, 광고 프레임워크, 충돌 보고가 없습니다.</p><h2>구매</h2><p>StoichPath Pro는 App Store가 처리하는 한 번의 구매입니다. 결제는 Apple이 처리하며 앱은 Pro가 열렸는지만 압니다. 그 거래에는 Apple의 개인정보 처리방침이 적용됩니다.</p><h2>데이터 삭제</h2><p>설정 › 노트 지우기 는 모든 쪽과 연습 기록을 지웁니다. 앱을 삭제하면 모든 것이 지워집니다.</p><h2>어린이</h2><p>앱에는 계정, 메시지, 외부 사이트 링크, 어떤 종류의 추적도 없습니다.</p>
+<h2>연락처</h2><p><a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p>
+<footer><p>마지막 업데이트: 2026년 10월 20일</p><p>Hayri Odabaş</p></footer></main></body></html>

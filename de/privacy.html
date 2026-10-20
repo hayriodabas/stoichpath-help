@@ -1,15 +1,19 @@
 <!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>StoichPath — Datenschutz</title><style>
-:root{color-scheme:light;--ink:#1e232a;--muted:#626b73;--paper:#f6f4ee;--accent:#31589b}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-main{max-width:820px;margin:0 auto;padding:48px 24px 80px}.brand{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
-h1{font:500 46px/1.1 Georgia,serif;margin:16px 0 12px}h2{font-size:22px;margin:34px 0 6px}p{margin:8px 0;color:#303943}.lead{font-size:21px;line-height:1.5;color:#303943}
-nav{display:flex;gap:22px;margin:22px 0 34px}a{color:var(--accent);text-underline-offset:3px}footer{margin-top:44px;border-top:1px solid #d7d5cd;padding-top:18px;color:var(--muted);font-size:14px}
-@media(max-width:600px){main{padding:32px 20px 60px}h1{font-size:38px}.lead{font-size:19px}}
-</style><link rel="canonical" href="https://hayriodabas.github.io/stoichpath-help/de/privacy.html"></head>
-<body><main><div class="brand">StoichPath · Portfolio Studio</div><nav><a href="privacy.html">Datenschutz</a><a href="support.html">Support</a></nav><h1>Datenschutz</h1><p class="lead">Dieser Prototyp speichert Chemieaufgaben, Notizen und Einträge im Fehlerjournal lokal in der App auf diesem Gerät. Die App sendet diese Arbeit nicht an einen Server des Herausgebers.</p>
-<h2>Arbeiten bleiben in der App</h2><p>Berechnungen und gespeicherte Aufgaben werden auf dem Gerät verarbeitet. Die App hat kein Konto, keine Werbung, keine Analyse und kein Drittanbieter-Tracking-SDK. iOS kann App-Daten gemäß deinen Gerätesicherungseinstellungen in Sicherungen aufnehmen.</p>
-<h2>Exporte nur auf Wunsch</h2><p>Wenn du ein PDF oder eine Sicherung erstellst oder teilst, zeigt iOS seine standardmäßige Dokument- oder Teilen-Oberfläche. Die Empfänger-App oder das Ziel verwaltet die exportierte Kopie nach den eigenen Regeln. Die App lädt sie nicht zu einem Dienst des Herausgebers hoch.</p>
-<h2>Verbindungsstatus</h2><p>Die App prüft, ob ein Netzwerkpfad verfügbar ist, um den Verbindungsstatus anzuzeigen. Dabei werden keine Lerninhalte übertragen.</p>
-<h2>Käufe</h2><p>In diesem Prototyp-Build ist kein Produktionsprodukt für In-App-Käufe eingerichtet.</p><footer><p>Zuletzt aktualisiert: 17. Oktober 2026</p><p>Publisher: Hayri Odabaş</p><p>Support: <a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p></footer></main></body></html>
+<title>StoichPath — Datenschutz</title><style>:root{color-scheme:light dark;--paper:#f5eedf;--card:#fdf9f1;--ink:#1e2230;--ink2:#5c6170;--cobalt:#2447c9;--brass:#b08a2e;--rule:#dacfbb}
+@media(prefers-color-scheme:dark){:root{--paper:#14171e;--card:#1e222b;--ink:#eee8da;--ink2:#a4a9b6;--cobalt:#7a95ff;--brass:#d6b259;--rule:#343a47}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:44px 22px 72px}.brand{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600}
+h1{font-size:40px;line-height:1.1;font-weight:700;margin:14px 0 8px}h2{font-size:24px;line-height:1.2;font-weight:600;margin:34px 0 8px}
+p,li{margin:8px 0}.lead{font-size:20px;color:var(--ink2)}nav{display:flex;gap:18px;margin:18px 0 30px;flex-wrap:wrap}
+a{color:var(--cobalt);text-underline-offset:3px}.card{background:var(--card);border:1px solid var(--rule);border-radius:18px;padding:18px 22px;margin:14px 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px}
+.rail{height:4px;background:var(--brass);border-radius:2px;margin:26px 0;position:relative}.rail::after{content:"";position:absolute;right:0;top:-6px;width:16px;height:16px;border-radius:50%;background:var(--cobalt)}
+footer{margin-top:40px;border-top:1px solid var(--rule);padding-top:16px;color:var(--ink2);font-size:14px}
+.langs{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:14px;list-style:none;padding:0}@media(max-width:600px){main{padding:30px 18px 56px}h1{font-size:32px}}</style>
+<link rel="canonical" href="https://hayriodabas.github.io/stoichpath-help/de/privacy.html"></head>
+<body><main><div class="brand">StoichPath</div>
+<nav><a href="privacy.html">Datenschutz</a><a href="support.html">Support</a><a href="../index.html">Sprachen</a></nav>
+<h1>Datenschutz</h1><p class="lead">StoichPath sammelt nichts. Alles, was du eintippst und behältst, bleibt auf deinem Gerät.</p><div class="rail"></div><h2>Was die App speichert</h2><p>Heftseiten, Übungsverlauf und Einstellungen liegen im eigenen Ordner der App auf deinem Gerät. Sie verlassen es nur, wenn du selbst eine Seite teilst oder ein Backup exportierst.</p><h2>Was die App sendet</h2><p>Nichts. StoichPath öffnet nie eine Netzwerkverbindung. Es gibt kein Konto, keine Analyse, kein Werbe-Framework und keine Absturzberichte.</p><h2>Käufe</h2><p>StoichPath Pro ist ein einmaliger Kauf über den App Store. Apple wickelt die Zahlung ab; die App erfährt nur, ob Pro freigeschaltet ist. Für diesen Vorgang gilt die Datenschutzerklärung von Apple.</p><h2>Daten löschen</h2><p>Einstellungen › Heft löschen entfernt jede Seite und den gesamten Übungsverlauf. Das Löschen der App entfernt alles.</p><h2>Kinder</h2><p>Die App hat keine Konten, keine Nachrichten, keine Links zu Drittseiten und keinerlei Tracking.</p>
+<h2>Kontakt</h2><p><a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a></p>
+<footer><p>Zuletzt aktualisiert am 20. Oktober 2026</p><p>Hayri Odabaş</p></footer></main></body></html>
