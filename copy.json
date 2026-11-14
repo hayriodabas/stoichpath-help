@@ -17,7 +17,7 @@
   "en-US": {
    "languages": "Languages",
    "contact": "Contact",
-   "updated": "Last updated 5 November 2026",
+   "updated": "Last updated 14 November 2026",
    "privacy": {
     "title": "Privacy",
     "lead": "StoichPath collects nothing. Everything you type and keep stays on your device.",
@@ -69,12 +69,20 @@
       "Switch the table from “Reactants given” to “Product wanted” and type how much product you need in its column. The table shows how much of each reactant the reaction takes at full yield, and the factor line runs from the product back to the reactant you choose."
      ],
      [
+      "Marking your own answer",
+      "Under the line on the bench, type the number you worked out yourself and tap “Mark it”. A right number gets a tick. For a wrong one StoichPath works the line again with one change at a time (the mole ratio upside down or left out, a start from the reactant that is left over, another substance’s molar mass, a line that stops early, a decimal point that moved) and, when one of them gives your number, names it and draws your line with that factor circled. If none fits, it says so and names nothing. Practice does the same under a wrong typed answer."
+     ],
+     [
       "Significant figures",
       "An amount remembers the figures you typed: <code>40.0</code> has three, <code>160</code> has two (trailing zeros without a decimal point are not counted). With Settings › Round answers to the data on, the answer keeps as many figures as the least precise amount given, and the bench says which one. Working values use the figures chosen in Settings."
      ],
      [
       "Amounts",
       "Each reactant can be given in grams, kilograms, milligrams, moles, millimoles, particles, litres or millilitres of gas at standard conditions, or as millilitres of a solution with its concentration. Switch a reactant to \"in excess\" to leave it out of the limiting check."
+     ],
+     [
+      "Gas at a temperature and pressure",
+      "A gas volume normally uses the molar volume chosen in Settings. When a question states a temperature and a pressure, choose “Temperature and pressure” in the amount sheet, or tap the conditions under the line when the answer is a volume. One mole then takes R·T ÷ P litres. The problem reader picks these up from the text (°C or K; atm, kPa, bar, mmHg)."
      ],
      [
       "Conventions",
@@ -108,7 +116,7 @@
   "de": {
    "languages": "Sprachen",
    "contact": "Kontakt",
-   "updated": "Zuletzt aktualisiert am 5. November 2026",
+   "updated": "Zuletzt aktualisiert am 14. November 2026",
    "privacy": {
     "title": "Datenschutz",
     "lead": "StoichPath sammelt nichts. Alles, was du eintippst und behältst, bleibt auf deinem Gerät.",
@@ -160,12 +168,20 @@
       "Stelle die Tabelle von „Edukte gegeben“ auf „Produkt gewünscht“ und gib in seiner Spalte ein, wie viel Produkt du brauchst. Die Tabelle zeigt, wie viel von jedem Edukt die Reaktion bei vollständiger Ausbeute braucht, und die Faktorenzeile führt vom Produkt zurück zum Edukt, das du wählst."
      ],
      [
+      "Das eigene Ergebnis prüfen",
+      "Tipp unter der Zeile auf dem Labortisch die Zahl ein, die du selbst ausgerechnet hast, und tippe auf „Korrigieren“. Eine richtige Zahl bekommt einen Haken. Bei einer falschen rechnet StoichPath die Zeile mit je einer Änderung noch einmal (Molverhältnis umgedreht oder vergessen, Start beim Edukt, das übrig bleibt, molare Masse eines anderen Stoffs, zu früh aufgehört, verrutschtes Komma), und wenn eine davon deine Zahl ergibt, benennt es den Fehler und zeichnet deine Zeile mit dem eingekreisten Faktor. Passt keine, sagt es das und benennt nichts. Beim Üben geschieht dasselbe unter einer falsch eingetippten Antwort."
+     ],
+     [
       "Signifikante Stellen",
       "Eine Menge merkt sich die Stellen, die du getippt hast: <code>40.0</code> hat drei, <code>160</code> hat zwei (Nullen am Ende ohne Dezimalpunkt zählen nicht). Ist in den Einstellungen „Antworten an die Daten anpassen“ an, behält die Antwort so viele Stellen wie die ungenaueste gegebene Menge, und der Tisch sagt, welche. Zwischenwerte nutzen die in den Einstellungen gewählten Stellen."
      ],
      [
       "Mengen",
       "Jedes Edukt kann in Gramm, Kilogramm, Milligramm, Mol, Millimol, Teilchen, Litern oder Millilitern Gas bei Standardbedingungen oder als Milliliter einer Lösung mit Konzentration angegeben werden. Schalte ein Edukt auf „im Überschuss“, um es aus der Limitierungsprüfung herauszuhalten."
+     ],
+     [
+      "Gas bei Temperatur und Druck",
+      "Ein Gasvolumen nutzt normalerweise das in den Einstellungen gewählte Molvolumen. Nennt eine Aufgabe Temperatur und Druck, wähle im Mengenblatt „Temperatur und Druck“ oder tippe unter der Zeile auf die Bedingungen, wenn das Ergebnis ein Volumen ist. Ein Mol nimmt dann R·T ÷ p Liter ein. Der Aufgabenleser übernimmt diese Angaben aus dem Text (°C oder K; atm, kPa, bar, mmHg)."
      ],
      [
       "Konventionen",
@@ -199,7 +215,7 @@
   "fr": {
    "languages": "Langues",
    "contact": "Contact",
-   "updated": "Dernière mise à jour le 5 novembre 2026",
+   "updated": "Dernière mise à jour le 14 novembre 2026",
    "privacy": {
     "title": "Confidentialité",
     "lead": "StoichPath ne collecte rien. Tout ce que tu tapes et gardes reste sur ton appareil.",
@@ -251,12 +267,20 @@
       "Passe le tableau de « Réactifs donnés » à « Produit voulu » et tape la quantité de produit dont tu as besoin dans sa colonne. Le tableau montre la quantité de chaque réactif que la réaction consomme à rendement complet, et la ligne de facteurs va du produit jusqu’au réactif que tu choisis."
      ],
      [
+      "Corriger sa propre réponse",
+      "Sous la ligne de la paillasse, saisis le nombre que tu as calculé toi-même et touche « Corriger ». Un nombre juste est coché. Pour un nombre faux, StoichPath refait la ligne en changeant une chose à la fois (rapport molaire inversé ou oublié, départ du réactif en excès, masse molaire d’une autre substance, ligne arrêtée trop tôt, virgule déplacée) et, si l’une d’elles donne ton nombre, il nomme l’erreur et redessine ta ligne avec ce facteur entouré. Si aucune ne convient, il le dit et ne nomme rien. Les exercices font de même sous une réponse fausse."
+     ],
+     [
       "Chiffres significatifs",
       "Une quantité se souvient des chiffres que tu as tapés : <code>40.0</code> en a trois, <code>160</code> en a deux (les zéros finaux sans virgule ne comptent pas). Avec Réglages › Arrondir les réponses aux données activé, la réponse garde autant de chiffres que la quantité donnée la moins précise, et la paillasse dit laquelle. Les valeurs de calcul utilisent le nombre de chiffres choisi dans les Réglages."
      ],
      [
       "Quantités",
       "Chaque réactif se donne en grammes, kilogrammes, milligrammes, moles, millimoles, particules, litres ou millilitres de gaz aux conditions standard, ou en millilitres de solution avec sa concentration. Passe un réactif « en excès » pour l’écarter du calcul du limitant."
+     ],
+     [
+      "Gaz à une température et une pression",
+      "Un volume de gaz utilise normalement le volume molaire choisi dans les Réglages. Quand un énoncé donne une température et une pression, choisis « Température et pression » dans la feuille de quantité, ou touche les conditions sous la ligne quand la réponse est un volume. Une mole occupe alors R·T ÷ P litres. Le lecteur d’énoncés les reprend dans le texte (°C ou K ; atm, kPa, bar, mmHg)."
      ],
      [
       "Conventions",
@@ -290,7 +314,7 @@
   "es": {
    "languages": "Idiomas",
    "contact": "Contacto",
-   "updated": "Última actualización: 5 de noviembre de 2026",
+   "updated": "Última actualización: 14 de noviembre de 2026",
    "privacy": {
     "title": "Privacidad",
     "lead": "StoichPath no recopila nada. Todo lo que escribes y guardas se queda en tu dispositivo.",
@@ -342,12 +366,20 @@
       "Cambia la tabla de «Reactivos dados» a «Producto buscado» y escribe en su columna cuánto producto necesitas. La tabla muestra cuánto de cada reactivo necesita la reacción con rendimiento del 100 %, y la línea de factores va del producto al reactivo que elijas."
      ],
      [
+      "Corregir tu propia respuesta",
+      "Bajo la línea de la mesa, escribe el número que calculaste por tu cuenta y toca «Corregir». Un número correcto recibe una marca. Si es incorrecto, StoichPath rehace la línea cambiando una sola cosa cada vez (relación molar invertida u olvidada, empezar por el reactivo que sobra, masa molar de otra sustancia, línea que se queda corta, coma desplazada) y, cuando una de ellas da tu número, nombra el error y dibuja tu línea con ese factor rodeado. Si ninguna encaja, lo dice y no nombra nada. La práctica hace lo mismo bajo una respuesta incorrecta."
+     ],
+     [
       "Cifras significativas",
       "Una cantidad recuerda las cifras que escribiste: <code>40,0</code> tiene tres, <code>160</code> tiene dos (los ceros finales sin coma decimal no cuentan). Con Ajustes › Redondear las respuestas a los datos activado, la respuesta conserva tantas cifras como la cantidad dada menos precisa, y la mesa dice cuál es. Los valores de trabajo usan las cifras elegidas en Ajustes."
      ],
      [
       "Cantidades",
       "Cada reactivo se da en gramos, kilogramos, miligramos, moles, milimoles, partículas, litros o mililitros de gas en condiciones estándar, o en mililitros de disolución con su concentración. Pasa un reactivo a «en exceso» para dejarlo fuera del cálculo del limitante."
+     ],
+     [
+      "Gas a una temperatura y una presión",
+      "Un volumen de gas usa normalmente el volumen molar elegido en Ajustes. Cuando un problema da una temperatura y una presión, elige «Temperatura y presión» en la hoja de cantidad, o toca las condiciones bajo la línea cuando la respuesta es un volumen. Un mol ocupa entonces R·T ÷ P litros. El lector de problemas las toma del texto (°C o K; atm, kPa, bar, mmHg)."
      ],
      [
       "Convenciones",
@@ -381,7 +413,7 @@
   "it": {
    "languages": "Lingue",
    "contact": "Contatto",
-   "updated": "Ultimo aggiornamento: 5 novembre 2026",
+   "updated": "Ultimo aggiornamento: 14 novembre 2026",
    "privacy": {
     "title": "Privacy",
     "lead": "StoichPath non raccoglie nulla. Tutto ciò che scrivi e tieni resta sul tuo dispositivo.",
@@ -433,12 +465,20 @@
       "Passa la tabella da «Reagenti dati» a «Prodotto voluto» e scrivi quanto prodotto ti serve nella sua colonna. La tabella mostra quanto serve di ogni reagente a resa completa, e la riga dei fattori va dal prodotto al reagente che scegli."
      ],
      [
+      "Correggere la propria risposta",
+      "Sotto la riga del banco scrivi il numero che hai calcolato da solo e tocca «Correggi». Un numero giusto riceve una spunta. Se è sbagliato, StoichPath rifà la riga cambiando una cosa alla volta (rapporto molare capovolto o dimenticato, partenza dal reagente che avanza, massa molare di un’altra sostanza, riga fermata troppo presto, virgola spostata) e, quando una di queste dà il tuo numero, dà un nome all’errore e ridisegna la tua riga con quel fattore cerchiato. Se nessuna corrisponde, lo dice e non dà nomi. Gli esercizi fanno lo stesso sotto una risposta sbagliata."
+     ],
+     [
       "Cifre significative",
       "Una quantità ricorda le cifre che hai scritto: <code>40.0</code> ne ha tre, <code>160</code> ne ha due (gli zeri finali senza virgola non si contano). Con Impostazioni › Arrotonda le risposte ai dati attivo, la risposta tiene tante cifre quante la quantità data meno precisa, e il banco dice quale. I valori di lavoro usano le cifre scelte nelle Impostazioni."
      ],
      [
       "Quantità",
       "Ogni reagente si può dare in grammi, chilogrammi, milligrammi, moli, millimoli, particelle, litri o millilitri di gas in condizioni standard, oppure in millilitri di soluzione con la concentrazione. Metti un reagente «in eccesso» per escluderlo dal calcolo del limitante."
+     ],
+     [
+      "Gas a una temperatura e una pressione",
+      "Un volume di gas usa di norma il volume molare scelto nelle Impostazioni. Quando un problema indica temperatura e pressione, scegli «Temperatura e pressione» nel foglio della quantità, oppure tocca le condizioni sotto la riga quando la risposta è un volume. Una mole occupa allora R·T ÷ P litri. Il lettore di problemi le ricava dal testo (°C o K; atm, kPa, bar, mmHg)."
      ],
      [
       "Convenzioni",
@@ -472,7 +512,7 @@
   "pt-BR": {
    "languages": "Idiomas",
    "contact": "Contato",
-   "updated": "Última atualização: 5 de novembro de 2026",
+   "updated": "Última atualização: 14 de novembro de 2026",
    "privacy": {
     "title": "Privacidade",
     "lead": "O StoichPath não coleta nada. Tudo o que você digita e guarda fica no seu aparelho.",
@@ -524,12 +564,20 @@
       "Mude a tabela de “Reagentes dados” para “Produto desejado” e digite quanto produto você precisa na coluna dele. A tabela mostra quanto de cada reagente a reação exige com rendimento de 100%, e a linha de fatores vai do produto de volta ao reagente que você escolher."
      ],
      [
+      "Corrigir a sua própria resposta",
+      "Abaixo da linha na bancada, digite o número que você calculou e toque em “Corrigir”. Um número certo ganha um visto. Se estiver errado, o StoichPath refaz a linha mudando uma coisa de cada vez (razão molar invertida ou esquecida, início pelo reagente que sobra, massa molar de outra substância, linha que para cedo demais, vírgula fora do lugar) e, quando uma delas dá o seu número, nomeia o erro e redesenha a sua linha com esse fator circulado. Se nenhuma servir, ele diz isso e não nomeia nada. A prática faz o mesmo abaixo de uma resposta errada."
+     ],
+     [
       "Algarismos significativos",
       "Uma quantidade lembra os algarismos que você digitou: <code>40,0</code> tem três, <code>160</code> tem dois (zeros finais sem vírgula decimal não contam). Com Ajustes › Arredondar as respostas pelos dados ligado, a resposta mantém tantos algarismos quanto a quantidade dada menos precisa, e a bancada diz qual. Os valores intermediários usam os algarismos escolhidos nos Ajustes."
      ],
      [
       "Quantidades",
       "Cada reagente pode ser dado em gramas, quilogramas, miligramas, mols, milimols, partículas, litros ou mililitros de gás nas condições padrão, ou em mililitros de solução com a concentração. Marque um reagente como \"em excesso\" para deixá-lo fora do cálculo do limitante."
+     ],
+     [
+      "Gás a uma temperatura e uma pressão",
+      "Um volume de gás normalmente usa o volume molar escolhido nos Ajustes. Quando um problema informa temperatura e pressão, escolha “Temperatura e pressão” na folha de quantidade, ou toque nas condições abaixo da linha quando a resposta for um volume. Um mol ocupa então R·T ÷ P litros. O leitor de problemas tira esses valores do texto (°C ou K; atm, kPa, bar, mmHg)."
      ],
      [
       "Convenções",
@@ -563,7 +611,7 @@
   "nl": {
    "languages": "Talen",
    "contact": "Contact",
-   "updated": "Laatst bijgewerkt op 5 november 2026",
+   "updated": "Laatst bijgewerkt op 14 november 2026",
    "privacy": {
     "title": "Privacy",
     "lead": "StoichPath verzamelt niets. Alles wat je typt en bewaart blijft op je apparaat.",
@@ -615,12 +663,20 @@
       "Zet de tabel van „Gegeven reagentia” op „Gewenst product” en typ in de kolom van het product hoeveel je nodig hebt. De tabel toont hoeveel van elk reagens de reactie nodig heeft bij een rendement van 100%, en de factorregel loopt van het product terug naar het reagens dat je kiest."
      ],
      [
+      "Je eigen antwoord nakijken",
+      "Typ onder de regel op de werkbank het getal dat je zelf hebt uitgerekend en tik op ‘Nakijken’. Een goed getal krijgt een vinkje. Bij een fout getal rekent StoichPath de regel opnieuw door met telkens één ding anders (molverhouding omgekeerd of vergeten, begonnen bij de stof die overblijft, molaire massa van een andere stof, te vroeg gestopt, verschoven komma) en als een daarvan jouw getal geeft, benoemt het de fout en tekent het jouw regel met die factor omcirkeld. Past er geen, dan zegt het dat en benoemt het niets. Oefenen doet hetzelfde onder een fout antwoord."
+     ],
+     [
       "Significante cijfers",
       "Een hoeveelheid onthoudt de cijfers die je typte: <code>40,0</code> heeft er drie, <code>160</code> heeft er twee (nullen aan het eind zonder decimaalteken tellen niet mee). Met Instellingen › Rond antwoorden af op de gegevens aan behoudt het antwoord evenveel cijfers als de minst nauwkeurige gegeven hoeveelheid, en de werkbank zegt welke dat is. Rekenwaarden gebruiken de cijfers die in Instellingen zijn gekozen."
      ],
      [
       "Hoeveelheden",
       "Elk reagens kan in gram, kilogram, milligram, mol, millimol, deeltjes, liter of milliliter gas bij standaardomstandigheden, of als milliliter oplossing met concentratie. Zet een reagens op „in overmaat” om het buiten de beperkingscheck te houden."
+     ],
+     [
+      "Gas bij een temperatuur en druk",
+      "Een gasvolume gebruikt normaal het molaire volume uit Instellingen. Geeft een opgave een temperatuur en een druk, kies dan ‘Temperatuur en druk’ in het hoeveelheidsblad, of tik op de omstandigheden onder de regel als het antwoord een volume is. Eén mol neemt dan R·T ÷ p liter in. De opgavelezer haalt ze uit de tekst (°C of K; atm, kPa, bar, mmHg)."
      ],
      [
       "Afspraken",
@@ -654,7 +710,7 @@
   "ja": {
    "languages": "言語",
    "contact": "連絡先",
-   "updated": "最終更新：2026年11月5日",
+   "updated": "最終更新：2026年11月14日",
    "privacy": {
     "title": "プライバシー",
     "lead": "StoichPath は何も収集しません。入力し保存したものはすべてあなたの端末に残ります。",
@@ -706,12 +762,20 @@
       "表を「与えた反応物」から「求める生成物」に切り替え、欲しい生成物の量をその列に入力します。表には収率100%でそれぞれの反応物がどれだけ必要かが出て、換算係数の式は生成物から選んだ反応物へと逆にたどります。"
      ],
      [
+      "自分の答えを採点する",
+      "実験台の式の下に、自分で求めた数値を入力して「採点する」をタップします。合っていればチェックが付きます。違っている場合、StoichPath は式を一か所ずつ変えて計算し直し（モル比が逆・抜けている、余る反応物から始めた、別の物質のモル質量を使った、途中で止まった、小数点がずれた）、あなたの数値と一致するものがあれば、その原因を示し、該当する換算係数を丸で囲んであなたの式を描き直します。どれにも当てはまらなければ、そう伝えるだけで原因は付けません。練習でも、数値を間違えたときに同じ表示が出ます。"
+     ],
+     [
       "有効数字",
       "量は入力した桁数を覚えています。<code>40.0</code> は3桁、<code>160</code> は2桁です（小数点のない末尾のゼロは数えません）。設定 › 答えをデータの桁に丸める をオンにすると、答えは与えられた量のうち最も精度の低いものと同じ桁数になり、どの量かも表示されます。途中の計算値には設定で選んだ桁数が使われます。"
      ],
      [
       "量",
       "各反応物はグラム、キログラム、ミリグラム、モル、ミリモル、粒子数、標準状態の気体のリットルまたはミリリットル、あるいは濃度つき溶液のミリリットルで与えられます。「過剰」に切り替えると限定反応物の判定から外れます。"
+     ],
+     [
+      "温度と圧力を指定した気体",
+      "気体の体積は通常、設定で選んだモル体積で計算します。問題に温度と圧力が書かれている場合は、量の入力シートで「温度と圧力」を選ぶか、答えが体積のときは式の下の条件をタップします。このとき気体 1 mol の体積は R·T ÷ P リットルです。問題の読み取りでも本文から読み取ります（°C または K、atm・kPa・bar・mmHg）。"
      ],
      [
       "約束事",
@@ -745,7 +809,7 @@
   "ko": {
    "languages": "언어",
    "contact": "연락처",
-   "updated": "마지막 업데이트: 2026년 11월 5일",
+   "updated": "마지막 업데이트: 2026년 11월 14일",
    "privacy": {
     "title": "개인정보",
     "lead": "StoichPath는 아무것도 수집하지 않습니다. 입력하고 남긴 모든 것은 기기 안에 머뭅니다.",
@@ -797,12 +861,20 @@
       "표를 ‘반응물이 주어짐’에서 ‘원하는 생성물’로 바꾸고 그 열에 필요한 생성물의 양을 입력하세요. 표에는 수득률 100%일 때 각 반응물이 얼마나 드는지 나오고, 환산 인자 식은 생성물에서 고른 반응물까지 거슬러 이어집니다."
      ],
      [
+      "내 답 채점하기",
+      "실험대의 식 아래에 직접 구한 값을 입력하고 ‘채점하기’를 누릅니다. 맞으면 체크 표시가 붙습니다. 틀리면 StoichPath가 식을 한 군데씩 바꿔 다시 계산해 보고(몰비를 뒤집거나 빠뜨림, 남는 반응물에서 시작, 다른 물질의 몰 질량 사용, 중간에서 멈춤, 소수점 자리 어긋남) 그중 하나가 입력한 값과 일치하면 그 실수를 짚어 주고, 해당 인자에 동그라미를 쳐서 내 식을 다시 그려 줍니다. 맞는 것이 없으면 그렇다고만 알리고 이름을 붙이지 않습니다. 연습에서도 틀린 값을 입력하면 같은 안내가 나옵니다."
+     ],
+     [
       "유효숫자",
       "양은 입력한 자릿수를 기억합니다. <code>40.0</code>은 세 자리, <code>160</code>은 두 자리입니다(소수점 없는 끝의 0은 세지 않습니다). 설정 › 답을 주어진 값에 맞춰 반올림을 켜면 답은 주어진 양 중 가장 정밀도가 낮은 것과 같은 자릿수를 갖고, 실험대가 어느 양인지 알려 줍니다. 계산 중간값에는 설정에서 고른 자릿수가 쓰입니다."
      ],
      [
       "양",
       "각 반응물은 그램, 킬로그램, 밀리그램, 몰, 밀리몰, 입자 수, 표준 상태 기체의 리터나 밀리리터, 또는 농도가 있는 용액의 밀리리터로 줄 수 있습니다. 반응물을 \"과량\"으로 바꾸면 한계 반응물 판정에서 빠집니다."
+     ],
+     [
+      "온도와 압력이 주어진 기체",
+      "기체의 부피는 보통 설정에서 고른 몰 부피로 계산합니다. 문제에 온도와 압력이 나와 있으면 양 입력 시트에서 ‘온도와 압력’을 고르거나, 답이 부피일 때 식 아래의 조건을 누릅니다. 이때 기체 1몰의 부피는 R·T ÷ P 리터입니다. 문제 읽기도 본문에서 이를 읽어 옵니다(°C 또는 K, atm·kPa·bar·mmHg)."
      ],
      [
       "약속",
@@ -836,7 +908,7 @@
   "zh-Hans": {
    "languages": "语言",
    "contact": "联系",
-   "updated": "最后更新：2026 年 11 月 5 日",
+   "updated": "最后更新：2026 年 11 月 14 日",
    "privacy": {
     "title": "隐私",
     "lead": "StoichPath 不收集任何信息。你输入和保存的一切都留在你的设备上。",
@@ -888,12 +960,20 @@
       "把表格从“已知反应物”切换到“所需生成物”，在生成物所在列输入你需要的量。表格会显示在完全转化时每种反应物需要多少，换算因子链则从生成物倒推到你选定的反应物。"
      ],
      [
+      "批改你自己的答案",
+      "在实验台换算式的下方输入你自己算出的数值，然后轻点“批改”。算对了会打勾。算错了，StoichPath 会每次只改一处重新计算（摩尔比写反或漏掉、从有剩余的反应物算起、用了别的物质的摩尔质量、没有算完、小数点移位），只要其中一种正好得出你的数值，就指出这种失误，并把你的换算式重画出来、圈出那个因子。都对不上时只会如实告知，不会硬安原因。练习中输错数值时也是这样。"
+     ],
+     [
       "有效数字",
       "用量会记住你输入的位数：<code>40.0</code> 有三位，<code>160</code> 有两位（没有小数点的末尾零不计入）。开启设置 › 按数据取整答案 后，答案的有效数字与已知用量中精度最低的一个相同，实验台会说明是哪一个。中间计算使用设置里选定的位数。"
      ],
      [
       "用量",
       "每种反应物可以用克、千克、毫克、摩尔、毫摩尔、粒子数、标准状况下气体的升或毫升，或带浓度的溶液毫升数给出。把反应物切换为“过量”即可不参与限量判断。"
+     ],
+     [
+      "指定温度和压强的气体",
+      "气体体积通常按“设置”里选定的摩尔体积计算。题目给出温度和压强时，在用量面板里选择“温度和压强”；答案是体积时，轻点换算式下方的条件。这时 1 摩尔气体占 R·T ÷ P 升。读题功能也会从题目文字中读出这些条件（°C 或 K；atm、kPa、bar、mmHg）。"
      ],
      [
       "约定",
@@ -927,7 +1007,7 @@
   "ru": {
    "languages": "Языки",
    "contact": "Контакт",
-   "updated": "Обновлено 5 ноября 2026 г.",
+   "updated": "Обновлено 14 ноября 2026 г.",
    "privacy": {
     "title": "Конфиденциальность",
     "lead": "StoichPath ничего не собирает. Всё, что вы вводите и сохраняете, остаётся на вашем устройстве.",
@@ -979,12 +1059,20 @@
       "Переключите таблицу с «Даны реагенты» на «Нужен продукт» и введите, сколько продукта требуется, в его столбце. Таблица покажет, сколько каждого реагента нужно реакции при полном выходе, а строка множителей пойдёт от продукта назад к выбранному реагенту."
      ],
      [
+      "Проверка своего ответа",
+      "Под строкой на столе введите число, которое получили сами, и нажмите «Проверить». Верное число получает галочку. Если оно неверно, StoichPath пересчитывает строку, меняя каждый раз что-то одно (мольное отношение перевёрнуто или пропущено, расчёт начат с реагента в избытке, взята молярная масса другого вещества, строка оборвана раньше времени, сдвинута запятая), и, если один из вариантов даёт ваше число, называет ошибку и рисует вашу строку с обведённым множителем. Если ни один не подходит, приложение так и сообщает и ничего не называет. В практике то же самое происходит под неверно введённым ответом."
+     ],
+     [
       "Значащие цифры",
       "Количество запоминает введённые цифры: у <code>40,0</code> их три, у <code>160</code> две (нули в конце без запятой не считаются). При включённом пункте «Настройки › Округлять ответы по данным» ответ сохраняет столько цифр, сколько у наименее точного из заданных количеств, и стол говорит, какое именно. Рабочие значения используют число цифр, выбранное в настройках."
      ],
      [
       "Количества",
       "Каждый реагент можно задать в граммах, килограммах, миллиграммах, молях, миллимолях, частицах, литрах или миллилитрах газа при нормальных условиях либо в миллилитрах раствора с концентрацией. Переключите реагент «в избыток», чтобы исключить его из проверки на недостаток."
+     ],
+     [
+      "Газ при заданных температуре и давлении",
+      "Обычно объём газа считается по молярному объёму, выбранному в настройках. Если в задаче указаны температура и давление, выберите «Температура и давление» на листе количества или нажмите на условия под строкой, когда ответ — объём. Тогда один моль занимает R·T ÷ P литров. При чтении задачи эти условия берутся из текста (°C или K; atm, kPa, bar, mmHg)."
      ],
      [
       "Соглашения",
@@ -1018,7 +1106,7 @@
   "tr": {
    "languages": "Diller",
    "contact": "İletişim",
-   "updated": "Son güncelleme: 5 Kasım 2026",
+   "updated": "Son güncelleme: 14 Kasım 2026",
    "privacy": {
     "title": "Gizlilik",
     "lead": "StoichPath hiçbir şey toplamaz. Yazdığın ve sakladığın her şey cihazında kalır.",
@@ -1070,12 +1158,20 @@
       "Tabloyu “Verilen tepkenler”den “İstenen ürün”e çevir ve ürünün sütununa ne kadar ürün gerektiğini yaz. Tablo, tam verimde tepkimenin her tepkenden ne kadar harcadığını gösterir; dönüşüm çarpanı satırı üründen seçtiğin tepkene doğru işler."
      ],
      [
+      "Kendi cevabını kontrol etmek",
+      "Tezgâhtaki satırın altına kendi bulduğun sayıyı yaz ve “Kontrol et”e dokun. Doğru sayı onay işareti alır. Yanlışsa StoichPath satırı her seferinde tek bir şeyi değiştirerek yeniden hesaplar (mol oranı ters ya da eksik, artan tepkenden başlanmış, başka maddenin mol kütlesi, erken biten satır, kaymış virgül); bunlardan biri senin sayını veriyorsa hatanın adını koyar ve o çarpanı halkaya alarak satırını yeniden çizer. Hiçbiri uymuyorsa bunu söyler, ad koymaz. Alıştırmada yanlış yazılan cevabın altında da aynısı olur."
+     ],
+     [
       "Anlamlı basamaklar",
       "Bir miktar yazdığın basamakları hatırlar: <code>40.0</code> üç, <code>160</code> iki basamaklıdır (ondalık noktasız sondaki sıfırlar sayılmaz). Ayarlar › Yanıtları verilere göre yuvarla açıkken yanıt, verilen en az duyarlı miktar kadar basamak taşır ve tezgâh hangisinin belirleyici olduğunu söyler. Ara değerler Ayarlar'da seçilen basamakları kullanır."
      ],
      [
       "Miktarlar",
       "Her tepken gram, kilogram, miligram, mol, milimol, tanecik, standart koşullarda litre ya da mililitre gaz, ya da derişimiyle mililitre çözelti olarak verilebilir. Bir tepkeni \"aşırı\"ya alırsan sınırlayıcı denetiminin dışında kalır."
+     ],
+     [
+      "Sıcaklığı ve basıncı verilen gaz",
+      "Gaz hacmi normalde Ayarlar’da seçilen mol hacmiyle hesaplanır. Soru bir sıcaklık ve basınç veriyorsa miktar sayfasında “Sıcaklık ve basınç”ı seç ya da cevap bir hacimse satırın altındaki koşula dokun. O zaman bir mol gaz R·T ÷ P litre yer kaplar. Problem okuyucu bu değerleri metinden alır (°C ya da K; atm, kPa, bar, mmHg)."
      ],
      [
       "Kurallar",
